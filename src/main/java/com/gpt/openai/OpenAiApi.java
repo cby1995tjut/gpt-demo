@@ -1,4 +1,4 @@
-package openai;
+package com.gpt.openai;
 
 import com.gpt.completion.CompletionRequest;
 
