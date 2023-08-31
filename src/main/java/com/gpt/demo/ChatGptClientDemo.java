@@ -1,4 +1,4 @@
-package service;
+package com.gpt.demo;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
-public class ChatGptClient {
+public class ChatGptClientDemo {
 
     private static ObjectMapper objectMapper = new ObjectMapper();
 
