@@ -13,7 +13,7 @@ public class ChatGptClientDemo {
 
     public static void main(String[] args) throws JsonProcessingException {
         String apiUrl = "https://api.openai.com/v1/chat/completions";
-        String apiKey = ""; // 替换为你的 ChatGPT API 密钥
+        String apiKey = "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"; // 替换为你的 ChatGPT API 密钥
 
         // 构建请求头
         HttpHeaders headers = new HttpHeaders();
